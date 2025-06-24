@@ -79,9 +79,9 @@ footer {
 }
 .banner-img {
   width: 100%;
-  max-height: 300px;        /* Adjust height as needed */
-  object-fit: cover;
+  height: auto;
+  display: block;
   margin-bottom: 30px;
-  border-bottom: 4px solid #fff;  /* Optional: white line divider */
+  border-bottom: 4px solid #fff;
 }
 
