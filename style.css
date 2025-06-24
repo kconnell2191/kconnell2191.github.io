@@ -77,3 +77,11 @@ footer {
   font-size: 0.9em;
   color: #666;
 }
+.banner-img {
+  width: 100%;
+  max-height: 300px;        /* Adjust height as needed */
+  object-fit: cover;
+  margin-bottom: 30px;
+  border-bottom: 4px solid #fff;  /* Optional: white line divider */
+}
+
