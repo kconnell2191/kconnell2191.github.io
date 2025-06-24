@@ -17,10 +17,15 @@ body {
 .container {
   max-width: 800px;
   margin: auto;
-  background: white;
-  padding: 40px;
-  border-radius: 12px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 40px 20px;
+  color: white; /* Make text readable on darker background */
+}
+.container h1,
+.container h2,
+.container p,
+.container li,
+.container a {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
 }
 
 /* Headings */
