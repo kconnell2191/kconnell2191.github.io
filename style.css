@@ -84,19 +84,21 @@ footer {
   margin-bottom: 30px;
   border-bottom: 4px solid #fff;
 }
+/* --- navigation bar --- */
 .navbar {
-  text-align: center;
-  background: rgba(0, 0, 0, 0.6);
-  padding: 10px 0;
+  display: flex;                 /* lay anchors in one row */
+  justify-content: center;       /* center them horizontally */
+  gap: 24px;                     /* space between links */
+  padding: 12px 0;
+  background: rgba(0, 0, 0, 0.6);/* dark translucent strip */
+  margin-bottom: 30px;           /* space before main content */
 }
-
 .navbar a {
-  color: white;
-  margin: 0 15px;
+  color: #fff;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
-
 .navbar a:hover {
   text-decoration: underline;
 }
