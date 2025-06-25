@@ -113,26 +113,34 @@ footer {
 /* --- navigation bar --- */
 .navbar {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;   /* evenly spread across width  */
+  align-items: center;
   flex-wrap: wrap;
-  gap: 25px;
-  margin: 20px auto;
-  background: rgba(0, 0, 0, 0.4);
-  padding: 10px 20px;
-  border-radius: 10px;
-  width: fit-content;
+  width: 90%;                      /* make bar wide, but still responsive  */
+  max-width: 1100px;               /* don’t get too huge on large monitors */
+  margin: 25px auto;
+  padding: 14px 24px;
+  gap: 30px;                       /* extra breathing room between links   */
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
 }
 .navbar a {
+  font-family: 'Orbitron', sans-serif;  /* Orbitron everywhere!      */
+  font-size: 1.15rem;                   /* bump size (≈18 px)         */
+  font-weight: 700;
+  letter-spacing: 0.6px;
   color: #fff;
   text-decoration: none;
-  font-weight: 600;
-  letter-spacing: 0.5px;
+  transition: text-shadow 0.25s;
 }
 
 .navbar a:hover {
-  text-decoration: underline;
+  text-shadow:
+    0 0 6px #00eaff,
+    0 0 12px #00eaff,
+    0 0 18px #00eaff;
 }
-
 
 
 
