@@ -82,36 +82,46 @@ footer {
 }
 
 .banner-img {
-  width: 100%;
-  max-height: 220px;           /* adjust up/down if needed */
-  object-fit: contain;         /* show entire image, no crop */
+  max-width: 600px;
+  width: 90%;
+  height: auto;
   display: block;
-  margin-bottom: 25px;
+  margin: 30px auto 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 }
 
 /* --- hero name & subtitle --- */
 .hero-name {
   font-family: 'Orbitron', sans-serif;
   font-size: 3rem;
-  margin: 0 0 10px;
-  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+  margin: 40px 0 10px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+}
 
 .title-tags {
+  font-size: 1.2rem;
+  text-align: center;
   font-weight: 600;
-  margin-bottom: 35px;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  margin-bottom: 50px;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
 }
 
 /* --- navigation bar --- */
 .navbar {
-  display: flex;                 /* lay anchors in one row */
-  justify-content: center;       /* center them horizontally */
-  gap: 24px;                     /* space between links */
-  padding: 12px 0;
-  background: rgba(0, 0, 0, 0.6);/* dark translucent strip */
-  margin-bottom: 30px;           /* space before main content */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 20px auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: fit-content;
 }
-
 .navbar a {
   color: #fff;
   text-decoration: none;
