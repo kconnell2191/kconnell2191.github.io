@@ -10,7 +10,7 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: url('images/SiteBackgroundImage.png') no-repeat center center fixed;
+  background: background-image: url('images/new-background.jpg'); /* or .png, etc. */
   background-size: cover;
   color: #333;
   line-height: 1.6;
