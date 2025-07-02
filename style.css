@@ -142,5 +142,28 @@ footer {
     0 0 18px #00eaff;
 }
 
+/* --- Bio page enhancements --- */
+.bio-paragraph {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.bio-paragraph img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.bio-paragraph p {
+  flex: 1;
+  line-height: 1.7;
+}
+
 
 
